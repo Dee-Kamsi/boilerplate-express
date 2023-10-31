@@ -6,7 +6,7 @@ app.get("/", function (req, res) {
 })
 
 app.get("/", (req, res)=> {
-    res.sendFile("html"__direname + '/views/index.html');
+    res.sendFile(__dirname + '/views/index.html');
 })
 
 
